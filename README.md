@@ -1,7 +1,8 @@
-[![Build Status](https://travis-ci.org/agflow/misspell.svg?branch=master)](https://travis-ci.org/agflow/misspell) [![GoDoc](https://godoc.org/github.com/agflow/misspell?status.svg)](https://godoc.org/github.com/agflow/misspell) [![Go Report Card](https://goreportcard.com/badge/github.com/agflow/misspell)](https://goreportcard.com/report/github.com/agflow/misspell) [![Coverage](https://codecov.io/gh/agflow/misspell/branch/master/graph/badge.svg)](https://codecov.io/gh/agflow/misspell)
-
+## misspell [![Build Status](https://travis-ci.org/agflow/misspell.svg?branch=master)](https://travis-ci.org/agflow/misspell) [![GoDoc](https://godoc.org/github.com/agflow/misspell?status.svg)](https://godoc.org/github.com/agflow/misspell) [![Go Report Card](https://goreportcard.com/badge/github.com/agflow/misspell)](https://goreportcard.com/report/github.com/agflow/misspell) [![Coverage](https://codecov.io/gh/agflow/misspell/branch/master/graph/badge.svg)](https://codecov.io/gh/agflow/misspell)
 
 Correct commonly misspelled English words... quickly.
+
+> disclaimer: this a fork of **[client9/misspell](https://github.com/client9/misspell)**.
 
 ### Install
 
@@ -233,7 +234,7 @@ file,line,column,typo,corrected
 ```
 
 <a name="sqlite"></a>
-### How can I export to SQLite3? 
+### How can I export to SQLite3?
 
 Using `-f sqlite`, the output is a [sqlite3](https://www.sqlite.org/index.html) dump-file.
 
