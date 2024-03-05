@@ -1,4 +1,4 @@
-FROM golang:1.12.3-alpine
+FROM golang:1.22.1-alpine
 
 # cache buster
 RUN echo 4 
